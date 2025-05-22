@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etItemName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Item Name" />
+
+    <EditText
+        android:id="@+id/etCategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Category" />
+
+    <Button
+        android:id="@+id/btnAddItem"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="Add to Packaging List" />
+
+    <Button
+        android:id="@+id/btnViewItems"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:text="View Packaging List" />
+
+
+</LinearLayout>
